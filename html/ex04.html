@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html/ex04.html</title>
+</head>
+
+<body>
+    <form action="ex04.jsp" method="get">
+
+        <h1>개인 정보 입력</h1>
+        아 이 디 : <input type="id" name="id">
+        <p></p>
+        <th>생년월일 : <input type="date" name="birth"></th>
+        <p></p>
+        성별 : <input type="radio" name="sex" value="male" checked>남자
+        <input type="radio" name="sex" value="female">여자
+        <p></p>
+        E-mail: <input type="email" name="email">
+        <p></p>
+        메일수신: <input type="radio" name="eagree" value="agree" checked>수신동의
+        <input type="radio" name="eagree" value="disagree">수신거부
+        <p></p>
+        핸드폰:
+        <form> 
+            <select name="phone">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="070">070</option> -
+        </form>
+        - <input type="text" name="phone1">
+        - <input type="text" name="phone2">
+        </select>
+        <p></p>
+        직업 :
+        <form>
+            <select name="job">
+                <option value="사업자">사업자</option>
+                <option value="직장인">직장인</option>
+                <option value="학생">학생</option>
+                <option value="무직">무직</option>
+            </select>
+        </form>
+        <p></p>
+        취미 : <input type="checkbox" name="favorite" value="쇼핑" checked>쇼핑
+        <input type="checkbox" name="favorite" value="인터넷">인터넷
+        <input type="checkbox" name="favorite" value="음악감상">음악감상
+        <input type="checkbox" name="favorite" value="독서">독서
+        <input type="checkbox" name="favorite" value="스포츠">스포츠
+        <p></p>
+        자기소개 :
+        <form>
+            <textarea name="self" row="10" cols="50"> </textarea>
+        </form>
+        <br><input type="submit" value="등록">
+        <input type="reset" value="초기화">
+    </form>
+    </tr>
+    </table>
+</body>
+
+</html>
