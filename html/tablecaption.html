@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html2/tablecaption.html</title>
+<style>
+    td, th {border: 2px solid black;}
+    #c3 {border: 3px solid blue; caption-side: top; border-collapse: collapse;}
+    #c4 {border: 3px solid red; caption-side: bottom; border-collapse: collapse;}
+</style>
+</head>
+<body>
+    <h2>Table Empty</h2>
+    <table id="c1" border="1" width="300px">
+        <tr>
+            <td>국어</td>
+            <td>영어</td>
+        </tr>
+        <tr>
+            <td>수학</td>
+            <td></td>
+        </tr>
+    </table>
+    <p></p>
+    <table id="c2" border="1" width="300px">
+        <tr>
+            <td>국어</td>
+            <td>영어</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>수학</td>
+            <td></td>
+        </tr>
+    </table>
+    <p></p>
+    <h2>Table Caption</h2>
+    <table id="c3" border="1" width="300px">
+        <caption>[table 1-1] Korea Univercity</caption>
+        <tr>
+            <th>Univercity</th> <th>Contact</th> <th>Country</th>
+        </tr>
+        <tr>
+            <td>서울대학교</td> <th>홍현성</th> <th>KOREA</th>
+        </tr>
+    </table>
+    <p></p>
+    <table id="c4" border="1" width="300px">
+        <caption>[table 1-2] USA Univercity</caption>
+        <tr>
+            <th>Univercity</th> <th>Contact</th> <th>Country</th>
+        </tr>
+        <tr>
+            <td>Havard</td>
+            <td>Jackie</td>
+            <td>USA</td>
+        </tr>
+    </table>
+</body>
+</html>
